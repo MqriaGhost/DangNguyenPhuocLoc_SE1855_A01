@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repositories", "Repositorie
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DangNguyenPhuocLocWPF", "WpfApp\DangNguyenPhuocLocWPF.csproj", "{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DangNguyenPhuocLocWPF", "DangNguyenPhuocLocWPF\DangNguyenPhuocLocWPF.csproj", "{5D481351-52F3-4D91-8FF0-5649C2D79549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D481351-52F3-4D91-8FF0-5649C2D79549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D481351-52F3-4D91-8FF0-5649C2D79549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D481351-52F3-4D91-8FF0-5649C2D79549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D481351-52F3-4D91-8FF0-5649C2D79549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\converters\\orderdetailtotalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\converters\\orderdetailtotalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dataaccesslayer\\employeesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\employeesdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dataaccesslayer\\customersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\customersdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\converters\\inversebooleanconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\views\\customermainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dangnguyenphuoclocwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5D481351-52F3-4D91-8FF0-5649C2D79549}|DangNguyenPhuocLocWPF\\DangNguyenPhuocLocWPF.csproj|solutionrelative:dangnguyenphuoclocwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\services\\categoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dataaccesslayer\\productsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\productsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -71,96 +95,172 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "OrderDetailTotalConverter.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Converters\\OrderDetailTotalConverter.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Converters\\OrderDetailTotalConverter.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Converters\\OrderDetailTotalConverter.cs",
-              "RelativeToolTip": "WpfApp\\Converters\\OrderDetailTotalConverter.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:38:51.094Z",
+              "Title": "App.xaml",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\App.xaml",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\App.xaml",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\App.xaml",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T16:57:26.502Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginWindow.xaml",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml",
-              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-06-26T15:34:40.535Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\MainWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Title": "EmployeesDAO.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\EmployeesDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\EmployeesDAO.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\EmployeesDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\EmployeesDAO.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:31:03.091Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\App.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\App.xaml.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\App.xaml.cs",
-              "RelativeToolTip": "WpfApp\\App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:23:32.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginWindow.xaml.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml.cs",
-              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml.cs",
-              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:23:24.562Z",
+              "WhenOpened": "2025-06-26T16:55:46.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "LoginViewModel.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\LoginViewModel.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\LoginViewModel.cs",
-              "RelativeToolTip": "WpfApp\\ViewModels\\LoginViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAFAAAAAAAAAA==",
+              "Title": "CustomersDAO.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\CustomersDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\CustomersDAO.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\CustomersDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\CustomersDAO.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:22:58.261Z",
+              "WhenOpened": "2025-06-26T16:55:36.617Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ViewModelBase.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\ViewModelBase.cs",
-              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\ViewModelBase.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\ViewModelBase.cs",
-              "RelativeToolTip": "WpfApp\\ViewModels\\ViewModelBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:22:23.842Z",
+              "WhenOpened": "2025-06-26T16:27:05.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CustomerMainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Views\\CustomerMainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\Views\\CustomerMainWindow.xaml.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Views\\CustomerMainWindow.xaml.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\Views\\CustomerMainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:24:42.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InverseBooleanConverter.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Converters\\InverseBooleanConverter.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\Converters\\InverseBooleanConverter.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Converters\\InverseBooleanConverter.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\Converters\\InverseBooleanConverter.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAkwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:49:59.695Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAA0wBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:45:26.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T16:44:51.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA3wBQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:16:44.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\Commands\\RelayCommand.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA3wBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:35:30.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\App.xaml.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\App.xaml.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\App.xaml.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\App.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwAoAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:44:02.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T16:32:38.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DangNguyenPhuocLocWPF\\MainWindow.xaml",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DangNguyenPhuocLocWPF\\MainWindow.xaml",
+              "RelativeToolTip": "DangNguyenPhuocLocWPF\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T16:16:44.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "CategoriesService.cs",
               "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\CategoriesService.cs",
               "RelativeDocumentMoniker": "Services\\CategoriesService.cs",
@@ -173,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "IProductsService.cs",
               "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IProductsService.cs",
               "RelativeDocumentMoniker": "Services\\IProductsService.cs",
@@ -181,12 +281,11 @@
               "RelativeToolTip": "Services\\IProductsService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:05:08.633Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T15:05:08.633Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "IOrdersService.cs",
               "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IOrdersService.cs",
               "RelativeDocumentMoniker": "Services\\IOrdersService.cs",
@@ -194,12 +293,11 @@
               "RelativeToolTip": "Services\\IOrdersService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:04:50.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T15:04:50.824Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 16,
               "Title": "IEmployeesService.cs",
               "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IEmployeesService.cs",
               "RelativeDocumentMoniker": "Services\\IEmployeesService.cs",
@@ -207,12 +305,11 @@
               "RelativeToolTip": "Services\\IEmployeesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:04:09.871Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T15:04:09.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "ICustomersService.cs",
               "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\ICustomersService.cs",
               "RelativeDocumentMoniker": "Services\\ICustomersService.cs",
@@ -220,12 +317,11 @@
               "RelativeToolTip": "Services\\ICustomersService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:03:38.102Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T15:03:38.102Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 18,
               "Title": "ICategoriesService.cs",
               "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\ICategoriesService.cs",
               "RelativeDocumentMoniker": "Services\\ICategoriesService.cs",
@@ -233,12 +329,11 @@
               "RelativeToolTip": "Services\\ICategoriesService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T15:02:55.528Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T15:02:55.528Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "ProductsDAO.cs",
               "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\ProductsDAO.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\ProductsDAO.cs",
@@ -246,8 +341,7 @@
               "RelativeToolTip": "DataAccessLayer\\ProductsDAO.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-26T14:59:15.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-26T14:59:15.022Z"
             }
           ]
         }

@@ -1,0 +1,29 @@
+﻿<Window x:Class="DangNguyenPhuocLocWPF.Views.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:converters="clr-namespace:DangNguyenPhuocLocWPF.Converters"
+        Title="Login" Height="350" Width="400">
+    <Window.Resources>
+        <converters:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
+    </Window.Resources>
+    <Grid>
+        <StackPanel Margin="20">
+            <TextBlock Text="Login" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,0,0,10">
+                <RadioButton Content="Employee" IsChecked="{Binding IsCustomerLogin, Converter={StaticResource InverseBooleanConverter}, Mode=TwoWay}"/>
+                <RadioButton Content="Customer" IsChecked="{Binding IsCustomerLogin, Mode=TwoWay}" Margin="20,0,0,0"/>
+            </StackPanel>
+
+            <TextBlock Text="Username/Phone:" Margin="0,0,0,5"/>
+            <TextBox Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Password:" Margin="0,0,0,5"/>
+            <PasswordBox x:Name="PasswordBox" Margin="0,0,0,10"/>
+
+            <TextBlock Text="{Binding ErrorMessage}" Foreground="Red" Margin="0,0,0,10" MinHeight="20"/>
+
+            <Button Content="Login" Command="{Binding LoginCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}" HorizontalAlignment="Center" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Window>

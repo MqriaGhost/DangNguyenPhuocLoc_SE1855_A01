@@ -13,3 +13,4 @@ F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\DataAccessLayer\obj\Debug\net9.0
 F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
 F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
 F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll
+F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.sourcelink.json

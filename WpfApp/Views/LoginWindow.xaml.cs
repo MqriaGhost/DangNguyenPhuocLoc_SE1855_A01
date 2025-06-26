@@ -9,8 +9,9 @@ namespace DangNguyenPhuocLocWPF.Views
         public LoginWindow()
         {
             InitializeComponent();
-            DataContext = new LoginViewModel(new EmployeesService());
-            
+            // Pass both EmployeesService and CustomersService to the ViewModel
+            DataContext = new LoginViewModel(new EmployeesService(), new CustomersService());
+
             // Handle password changes
             PasswordBox.PasswordChanged += (s, e) =>
             {

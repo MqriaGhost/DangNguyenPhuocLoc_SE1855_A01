@@ -17,3 +17,4 @@ F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\Services\obj\Debug\net9.0\Servic
 F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\Services\obj\Debug\net9.0\refint\Services.dll
 F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\Services\obj\Debug\net9.0\Services.pdb
 F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\Services\obj\Debug\net9.0\ref\Services.dll
+F:\GIT-HUB\PRN212\DangNguyenPhuocLoc_SE1855_A01\Services\obj\Debug\net9.0\Services.sourcelink.json
