@@ -17,12 +17,16 @@
         <DataTemplate DataType="{x:Type vm:CustomerViewModel}">
             <views:CustomerView/>
         </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:ProductViewModel}">
+            <views:ProductView/>
+        </DataTemplate>
     </Window.Resources>
 
     <DockPanel>
         <Menu DockPanel.Dock="Top">
             <MenuItem Header="_Management">
                 <MenuItem Header="_Customers" Command="{Binding ShowCustomerViewCommand}"/>
+                <MenuItem Header="_Products" Command="{Binding ShowProductViewCommand}"/>
             </MenuItem>
         </Menu>
 

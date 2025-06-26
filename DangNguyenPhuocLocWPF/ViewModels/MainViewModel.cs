@@ -13,12 +13,15 @@ namespace DangNguyenPhuocLocWPF.ViewModels
             set => SetProperty(ref _currentView, value);
         }
 
+        // Command Declarations
         public ICommand ShowCustomerViewCommand { get; }
+        public ICommand ShowProductViewCommand { get; } // This property was likely missing
 
         public MainViewModel()
         {
-            // The command that will switch the view to the CustomerView
+            // Command Initializations
             ShowCustomerViewCommand = new RelayCommand(ShowCustomerView);
+            ShowProductViewCommand = new RelayCommand(ShowProductView);
 
             // Set the initial view
             CurrentView = new CustomerViewModel();
@@ -27,6 +30,11 @@ namespace DangNguyenPhuocLocWPF.ViewModels
         private void ShowCustomerView(object obj)
         {
             CurrentView = new CustomerViewModel();
+        }
+
+        private void ShowProductView(object obj)
+        {
+            CurrentView = new ProductViewModel();
         }
     }
 }
