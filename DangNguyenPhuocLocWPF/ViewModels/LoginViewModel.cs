@@ -102,7 +102,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
                     var employee = _employeesService.Login(Username, Password);
                     if (employee != null)
                     {
-                        var mainWindow = new MainWindow(employee);
+                        var mainWindow = new MainWindow();
                         mainWindow.Show();
                         (parameter as Window)?.Close();
                     }

@@ -4,9 +4,30 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DangNguyenPhuocLocWPF"
+        xmlns:views="clr-namespace:DangNguyenPhuocLocWPF.Views"
+        xmlns:vm="clr-namespace:DangNguyenPhuocLocWPF.ViewModels"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Sales Management System" Height="600" Width="900" WindowStartupLocation="CenterScreen">
 
-    </Grid>
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:CustomerViewModel}">
+            <views:CustomerView/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_Management">
+                <MenuItem Header="_Customers" Command="{Binding ShowCustomerViewCommand}"/>
+            </MenuItem>
+        </Menu>
+
+        <Grid>
+            <ContentControl Content="{Binding CurrentView}"/>
+        </Grid>
+    </DockPanel>
 </Window>
