@@ -8,12 +8,21 @@
         mc:Ignorable="d"
         Title="Customer Dashboard" Height="600" Width="800" WindowStartupLocation="CenterScreen">
 
-    <Grid>
-        <TabControl>
-            <TabItem Header="My Profile">
-            </TabItem>
-            <TabItem Header="My Orders">
-            </TabItem>
-        </TabControl>
-    </Grid>
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:ProfileViewModel}">
+            <local:ProfileView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:OrderHistoryViewModel}">
+            <local:OrderHistoryView/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <DockPanel>
+        <StackPanel DockPanel.Dock="Top" Orientation="Horizontal" Margin="5">
+            <Button Content="My Profile" Command="{Binding ShowProfileViewCommand}" Margin="0,0,5,0" Padding="10,5"/>
+            <Button Content="My Orders" Command="{Binding ShowOrderHistoryViewCommand}" Padding="10,5"/>
+        </StackPanel>
+
+        <ContentControl Content="{Binding CurrentView}" Margin="5"/>
+    </DockPanel>
 </Window>
