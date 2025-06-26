@@ -1,0 +1,257 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\converters\\orderdetailtotalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\converters\\orderdetailtotalconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\views\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\services\\categoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|solutionrelative:services\\categoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\services\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|solutionrelative:services\\iproductsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\services\\iordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|solutionrelative:services\\iordersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\services\\iemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|solutionrelative:services\\iemployeesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\services\\icustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|solutionrelative:services\\icustomersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\services\\icategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F0B2EDB-1D4B-450B-8496-2EC2CBE5377C}|Services\\Services.csproj|solutionrelative:services\\icategoriesservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\dataaccesslayer\\productsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F804325-D147-420A-9D5D-CD1E8E46BAD7}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\productsdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|f:\\git-hub\\prn212\\dangnguyenphuocloc_se1855_a01\\wpfapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7E1BA92-BCDA-455B-AC93-B8E61FE2029B}|WpfApp\\DangNguyenPhuocLocWPF.csproj|solutionrelative:wpfapp\\viewmodels\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrderDetailTotalConverter.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Converters\\OrderDetailTotalConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Converters\\OrderDetailTotalConverter.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Converters\\OrderDetailTotalConverter.cs",
+              "RelativeToolTip": "WpfApp\\Converters\\OrderDetailTotalConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:38:51.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml",
+              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-26T15:34:40.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\MainWindow.xaml.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:31:03.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\App.xaml.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:23:32.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp\\Views\\LoginWindow.xaml.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\Views\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp\\Views\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:23:24.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:22:58.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "WpfApp\\ViewModels\\ViewModelBase.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\ViewModels\\ViewModelBase.cs",
+              "RelativeToolTip": "WpfApp\\ViewModels\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:22:23.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoriesService.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\CategoriesService.cs",
+              "RelativeDocumentMoniker": "Services\\CategoriesService.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\CategoriesService.cs",
+              "RelativeToolTip": "Services\\CategoriesService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:06:19.943Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IProductsService.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IProductsService.cs",
+              "RelativeDocumentMoniker": "Services\\IProductsService.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IProductsService.cs",
+              "RelativeToolTip": "Services\\IProductsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:05:08.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IOrdersService.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IOrdersService.cs",
+              "RelativeDocumentMoniker": "Services\\IOrdersService.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IOrdersService.cs",
+              "RelativeToolTip": "Services\\IOrdersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:04:50.824Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IEmployeesService.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IEmployeesService.cs",
+              "RelativeDocumentMoniker": "Services\\IEmployeesService.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\IEmployeesService.cs",
+              "RelativeToolTip": "Services\\IEmployeesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:04:09.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ICustomersService.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\ICustomersService.cs",
+              "RelativeDocumentMoniker": "Services\\ICustomersService.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\ICustomersService.cs",
+              "RelativeToolTip": "Services\\ICustomersService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:03:38.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ICategoriesService.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\ICategoriesService.cs",
+              "RelativeDocumentMoniker": "Services\\ICategoriesService.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\ICategoriesService.cs",
+              "RelativeToolTip": "Services\\ICategoriesService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T15:02:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductsDAO.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\ProductsDAO.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\ProductsDAO.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\ProductsDAO.cs",
+              "RelativeToolTip": "DataAccessLayer\\ProductsDAO.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T14:59:15.022Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

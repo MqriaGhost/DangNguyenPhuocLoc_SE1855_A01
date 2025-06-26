@@ -1,0 +1,73 @@
+using BusinessObjects;
+using DangNguyenPhuocLocWPF.Commands;
+using Services;
+using System;
+using System.Windows;
+using System.Windows.Input;
+using WpfApp;
+
+namespace DangNguyenPhuocLocWPF.ViewModels
+{
+    public class LoginViewModel : ViewModelBase
+    {
+        private readonly IEmployeesService _employeesService;
+        private string _username;
+        private string _password;
+        private string _errorMessage;
+
+        public string Username
+        {
+            get => _username;
+            set => SetProperty(ref _username, value);
+        }
+
+        public string Password
+        {
+            get => _password;
+            set => SetProperty(ref _password, value);
+        }
+
+        public string ErrorMessage
+        {
+            get => _errorMessage;
+            set => SetProperty(ref _errorMessage, value);
+        }
+
+        public ICommand LoginCommand { get; }
+
+        public LoginViewModel(IEmployeesService employeesService)
+        {
+            _employeesService = employeesService;
+            LoginCommand = new RelayCommand(ExecuteLogin, CanExecuteLogin);
+        }
+
+        private bool CanExecuteLogin(object parameter)
+        {
+            return !string.IsNullOrWhiteSpace(Username) && !string.IsNullOrWhiteSpace(Password);
+        }
+
+        private void ExecuteLogin(object parameter)
+        {
+            try
+            {
+                var employee = _employeesService.Login(Username, Password);
+                if (employee != null)
+                {
+                    // Open main window with admin role
+                    var mainWindow = new MainWindow(employee); // Ensure MainWindow is in the Views namespace
+                    mainWindow.Show();
+                    // Close login window
+                    (parameter as Window)?.Close();
+                }
+                else
+                {
+                    ErrorMessage = "Invalid username or password";
+                }
+            }
+            catch (Exception ex)
+            {
+                ErrorMessage = ex.Message;
+            }
+        }
+    }
+}

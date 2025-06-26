@@ -1,0 +1,24 @@
+using System.Windows;
+using DangNguyenPhuocLocWPF.ViewModels;
+using Services;
+
+namespace DangNguyenPhuocLocWPF.Views
+{
+    public partial class LoginWindow : Window
+    {
+        public LoginWindow()
+        {
+            InitializeComponent();
+            DataContext = new LoginViewModel(new EmployeesService());
+            
+            // Handle password changes
+            PasswordBox.PasswordChanged += (s, e) =>
+            {
+                if (DataContext is LoginViewModel viewModel)
+                {
+                    viewModel.Password = PasswordBox.Password;
+                }
+            };
+        }
+    }
+}

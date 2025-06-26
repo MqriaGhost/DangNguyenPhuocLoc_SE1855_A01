@@ -1,0 +1,355 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\DangNguyenPhuocLocWPF.csproj": {}
+  },
+  "projects": {
+    "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\BusinessObjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\BusinessObjects.csproj",
+        "projectName": "BusinessObjects",
+        "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\BusinessObjects.csproj",
+        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\DataAccessLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectName": "DataAccessLayer",
+        "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\BusinessObjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Repositories\\Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Repositories\\Repositories.csproj",
+        "projectName": "Repositories",
+        "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Repositories\\Repositories.csproj",
+        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\DataAccessLayer.csproj": {
+                "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\DataAccessLayer\\DataAccessLayer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\Services.csproj",
+        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Repositories\\Repositories.csproj": {
+                "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Repositories\\Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\DangNguyenPhuocLocWPF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\DangNguyenPhuocLocWPF.csproj",
+        "projectName": "DangNguyenPhuocLocWPF",
+        "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\DangNguyenPhuocLocWPF.csproj",
+        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+        "outputPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\WpfApp\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0-windows7.0": {
+            "targetAlias": "net9.0-windows",
+            "projectReferences": {
+              "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\BusinessObjects.csproj": {
+                "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\BusinessObjects\\BusinessObjects.csproj"
+              },
+              "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\Services.csproj": {
+                "projectPath": "F:\\GIT-HUB\\PRN212\\DangNguyenPhuocLoc_SE1855_A01\\Services\\Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
