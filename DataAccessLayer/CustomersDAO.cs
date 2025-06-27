@@ -55,15 +55,15 @@ namespace DataAccessLayer
             if (customer == null)
             {
                 throw new ArgumentNullException(nameof(customer), "Customer object cannot be null.");
-            }          
+            }
             if (string.IsNullOrWhiteSpace(customer.CompanyName))
             {
-                throw new ArgumentException("Company name is required.", nameof(customer.CompanyName));
+                throw new Exception("Company name is required.");
             }
             if (string.IsNullOrWhiteSpace(customer.ContactName))
             {
-                throw new ArgumentException("Contact name is required.", nameof(customer.ContactName));
-            }                      
+                throw new Exception("Contact name is required.");
+            }
             int maxId = customers.Count > 0 ? customers.Max(c => c.CustomerId) : 0;
             
             int newId = maxId + 1;
@@ -89,21 +89,21 @@ namespace DataAccessLayer
            
             if (string.IsNullOrWhiteSpace(customer.CompanyName))
             {
-                throw new ArgumentException("Company name cannot be empty or whitespace.", nameof(customer.CompanyName));
+                throw new Exception("Company name cannot be empty or whitespace.");
             }
             if (string.IsNullOrWhiteSpace(customer.ContactName))
             {
-                throw new ArgumentException("Contact name cannot be empty or whitespace.", nameof(customer.ContactName));
+                throw new Exception("Contact name cannot be empty or whitespace.");
             }
             if (string.IsNullOrWhiteSpace(customer.Phone))
             {
-                throw new ArgumentException("Phone number is required.", nameof(customer.Phone));
+                throw new Exception("Phone number is required.");
             }                
             if (existingCustomer.Phone != customer.Phone)
             {
                 if (customers.Any(c => c.Phone == customer.Phone))
                 {
-                    throw new ArgumentException($"Phone number '{customer.Phone}' is already registered to another customer.", nameof(customer.Phone));
+                    throw new Exception($"Phone number '{customer.Phone}' is already registered to another customer.");
                 }
             }           
             existingCustomer.CompanyName = customer.CompanyName;

@@ -66,11 +66,11 @@ namespace DataAccessLayer
             if (product == null)
                 throw new ArgumentNullException(nameof(product), "Product cannot be null.");
             if (string.IsNullOrWhiteSpace(product.ProductName))
-                throw new ArgumentException("Product Name is required.", nameof(product.ProductName));
+                throw new Exception("Product Name is required.");
             if (product.UnitPrice < 0)
-                throw new ArgumentException("Unit Price cannot be negative.", nameof(product.UnitPrice));
+                throw new Exception("Unit Price cannot be negative.");
             if (product.UnitsInStock < 0)
-                throw new ArgumentException("Units in Stock cannot be negative.", nameof(product.UnitsInStock));
+                throw new Exception("Units in Stock cannot be negative.");
             // --- END---
 
             int maxId = products.Any() ? products.Max(p => p.ProductId) : 0;
@@ -84,11 +84,11 @@ namespace DataAccessLayer
             if (product == null)
                 throw new ArgumentNullException(nameof(product), "Product cannot be null.");
             if (string.IsNullOrWhiteSpace(product.ProductName))
-                throw new ArgumentException("Product Name is required.", nameof(product.ProductName));
+                throw new Exception("Product Name is required.");
             if (product.UnitPrice < 0)
-                throw new ArgumentException("Unit Price cannot be negative.", nameof(product.UnitPrice));
+                throw new Exception("Unit Price cannot be negative.");
             if (product.UnitsInStock < 0)
-                throw new ArgumentException("Units in Stock cannot be negative.", nameof(product.UnitsInStock));
+                throw new Exception("Units in Stock cannot be negative.");
             // --- END VALIDATION ---
 
             var existing = products.FirstOrDefault(p => p.ProductId == product.ProductId);
