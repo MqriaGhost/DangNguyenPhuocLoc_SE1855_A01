@@ -1,4 +1,6 @@
 ﻿using DangNguyenPhuocLocWPF.Commands;
+using DangNguyenPhuocLocWPF.Views;
+using System.Windows;
 using System.Windows.Input;
 
 namespace DangNguyenPhuocLocWPF.ViewModels
@@ -16,15 +18,25 @@ namespace DangNguyenPhuocLocWPF.ViewModels
         public ICommand ShowCustomerViewCommand { get; }
         public ICommand ShowProductViewCommand { get; }
         public ICommand ShowOrderViewCommand { get; }
-
+        public ICommand LogoutCommand { get; }
         public MainViewModel()
         {
             ShowCustomerViewCommand = new RelayCommand(ShowCustomerView);
             ShowProductViewCommand = new RelayCommand(ShowProductView);
             ShowOrderViewCommand = new RelayCommand(ShowOrderView);
+            LogoutCommand = new RelayCommand(Logout);
 
             // Set the initial view to be the customer view
             CurrentView = new CustomerViewModel();
+        }
+        private void Logout(object obj)
+        {
+            if (obj is Window window)
+            {
+                var loginWindow = new LoginWindow();
+                loginWindow.Show();
+                window.Close();
+            }
         }
 
         private void ShowCustomerView(object obj)

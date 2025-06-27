@@ -7,9 +7,7 @@
              xmlns:vm="clr-namespace:DangNguyenPhuocLocWPF.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <UserControl.DataContext>
-        <vm:ProfileViewModel/>
-    </UserControl.DataContext>
+    
 
     <Grid>
         <StackPanel Margin="20" HorizontalAlignment="Center" VerticalAlignment="Center">
