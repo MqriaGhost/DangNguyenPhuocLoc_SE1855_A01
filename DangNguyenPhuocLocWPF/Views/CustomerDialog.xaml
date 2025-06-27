@@ -49,10 +49,7 @@
             <TextBox Grid.Row="3" Grid.Column="1" Text="{Binding Customer.Address}" Margin="5"/>
 
             <Label Grid.Row="4" Grid.Column="0" Content="Phone:"/>
-            <TextBox Grid.Row="4" Grid.Column="1" 
-                     IsReadOnly="{Binding IsEditMode}" 
-                     Style="{StaticResource PhoneTextBoxStyle}" 
-                     Margin="5">
+            <TextBox Grid.Row="4" Grid.Column="1" Margin="5">
                 <TextBox.Text>
                     <Binding Path="Customer.Phone" UpdateSourceTrigger="PropertyChanged">
                         <Binding.ValidationRules>

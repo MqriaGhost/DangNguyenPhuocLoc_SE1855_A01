@@ -11,11 +11,10 @@ namespace DataAccessLayer
     {
         public static List<OrderDetails> orderDetails = new List<OrderDetails>
         {
-            new OrderDetails { OrderId = 1, ProductId = 1, Quantity = 10, UnitPrice = 30000000, Discount = 0.0 },
-            new OrderDetails { OrderId = 2, ProductId = 2, Quantity = 12, UnitPrice = 30000000, Discount = 0.1 },
-            new OrderDetails { OrderId = 3, ProductId = 3, Quantity = 23, UnitPrice = 30000000, Discount = 0.2 },
-            new OrderDetails { OrderId = 4, ProductId = 4, Quantity = 15, UnitPrice = 30000000, Discount = 0.3 },
-            new OrderDetails { OrderId = 5, ProductId = 1, Quantity = 2, UnitPrice = 30000000, Discount = 0.4}
+    new OrderDetails { OrderId = 1, ProductId = 1, Quantity = 10, UnitPrice = 18.00, Discount = 0.0 },
+    new OrderDetails { OrderId = 2, ProductId = 2, Quantity = 12, UnitPrice = 19.00, Discount = 0.1 },
+    new OrderDetails { OrderId = 3, ProductId = 3, Quantity = 23, UnitPrice = 20.00, Discount = 0.2 }
+    
         };
         public static List<OrderDetails> GetAllOrderDetails()
         {
