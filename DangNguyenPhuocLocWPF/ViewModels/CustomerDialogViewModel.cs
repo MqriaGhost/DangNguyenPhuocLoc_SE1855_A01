@@ -11,6 +11,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
             get => _customer;
             set => SetProperty(ref _customer, value);
         }
+        public bool IsEditMode { get; }
 
         public CustomerDialogViewModel(Customers customer)
         {
@@ -24,6 +25,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
                 Address = customer.Address,
                 Phone = customer.Phone
             };
+            IsEditMode = (customer.CustomerId != 0);
         }
     }
 }

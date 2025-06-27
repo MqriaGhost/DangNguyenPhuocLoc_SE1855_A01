@@ -51,10 +51,10 @@ namespace DataAccessLayer
             return customers.FirstOrDefault(c => c.CustomerId == id);
         }
         public static void AddCustomer(Customers customer)
-        {            
+        {
             if (customer == null)
             {
-                throw new ArgumentNullException(nameof(customer), "Customer object cannot be null.");
+                throw new Exception("Customer object cannot be null.");
             }
             if (string.IsNullOrWhiteSpace(customer.CompanyName))
             {
@@ -64,29 +64,37 @@ namespace DataAccessLayer
             {
                 throw new Exception("Contact name is required.");
             }
+
+            // --- START: Add Phone Number Uniqueness Validation ---
+            if (string.IsNullOrWhiteSpace(customer.Phone))
+            {
+                throw new Exception("Phone number is required.");
+            }
+            if (customers.Any(c => c.Phone.Equals(customer.Phone, StringComparison.OrdinalIgnoreCase)))
+            {
+                throw new Exception("This phone number is already registered to another customer.");
+            }
+            // --- END: Add Phone Number Uniqueness Validation ---
+
             int maxId = customers.Count > 0 ? customers.Max(c => c.CustomerId) : 0;
-            
             int newId = maxId + 1;
-            customer.CustomerId = newId;         
+            customer.CustomerId = newId;
             customers.Add(customer);
         }
         public static void UpdateCustomer(Customers customer)
         {
-            
             if (customer == null)
             {
-                throw new ArgumentNullException(nameof(customer), "Customer object cannot be null for update.");
+                throw new Exception("Customer object cannot be null for update.");
             }
 
-        
             var existingCustomer = customers.FirstOrDefault(c => c.CustomerId == customer.CustomerId);
 
-           
             if (existingCustomer == null)
             {
-                throw new ArgumentException($"Customer with ID {customer.CustomerId} not found for update.", nameof(customer.CustomerId));
+                throw new Exception($"Customer with ID {customer.CustomerId} not found for update.");
             }
-           
+
             if (string.IsNullOrWhiteSpace(customer.CompanyName))
             {
                 throw new Exception("Company name cannot be empty or whitespace.");
@@ -95,17 +103,19 @@ namespace DataAccessLayer
             {
                 throw new Exception("Contact name cannot be empty or whitespace.");
             }
+
+            // --- START: Add Phone Number Uniqueness Validation for Update ---
             if (string.IsNullOrWhiteSpace(customer.Phone))
             {
                 throw new Exception("Phone number is required.");
-            }                
-            if (existingCustomer.Phone != customer.Phone)
+            }
+            // Check if any *other* customer (with a different ID) has the same phone number.
+            if (customers.Any(c => c.Phone.Equals(customer.Phone, StringComparison.OrdinalIgnoreCase) && c.CustomerId != customer.CustomerId))
             {
-                if (customers.Any(c => c.Phone == customer.Phone))
-                {
-                    throw new Exception($"Phone number '{customer.Phone}' is already registered to another customer.");
-                }
-            }           
+                throw new Exception("This phone number is already registered to another customer.");
+            }
+            // --- END: Add Phone Number Uniqueness Validation for Update ---
+
             existingCustomer.CompanyName = customer.CompanyName;
             existingCustomer.ContactName = customer.ContactName;
             existingCustomer.ContactTitle = customer.ContactTitle;
