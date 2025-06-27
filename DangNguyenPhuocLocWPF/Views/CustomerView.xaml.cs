@@ -1,5 +1,4 @@
 ﻿using System.Windows.Controls;
-using DangNguyenPhuocLocWPF.ViewModels;
 
 namespace DangNguyenPhuocLocWPF.Views
 {
@@ -8,10 +7,6 @@ namespace DangNguyenPhuocLocWPF.Views
         public CustomerView()
         {
             InitializeComponent();
-            // We access the ViewModel through the DataContext
-            var viewModel = (CustomerViewModel)DataContext;
-            // Execute the command to load data
-            viewModel.LoadCustomersCommand.Execute(null);
         }
     }
 }

@@ -1,8 +1,8 @@
 ﻿using BusinessObjects;
 using DangNguyenPhuocLocWPF.Commands;
+using DangNguyenPhuocLocWPF.Views;
 using Services;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Windows;
@@ -10,7 +10,6 @@ using System.Windows.Input;
 
 namespace DangNguyenPhuocLocWPF.ViewModels
 {
-    // A wrapper class to display order info cleanly
     public class OrderDisplay
     {
         public int OrderId { get; set; }
@@ -27,6 +26,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
         private readonly IEmployeesService _employeesService;
         private readonly IOrderDetailsService _orderDetailsService;
 
+        private Employees _loggedInEmployee;
         private ObservableCollection<OrderDisplay> _orders;
         public ObservableCollection<OrderDisplay> Orders
         {
@@ -41,7 +41,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
             set
             {
                 SetProperty(ref _selectedOrder, value);
-                LoadOrderDetails(); // Load details when an order is selected
+                LoadOrderDetails();
             }
         }
 
@@ -52,7 +52,6 @@ namespace DangNguyenPhuocLocWPF.ViewModels
             set => SetProperty(ref _selectedOrderDetails, value);
         }
 
-        // START: Add properties for DatePickers
         private DateTime? _startDate;
         public DateTime? StartDate
         {
@@ -66,37 +65,45 @@ namespace DangNguyenPhuocLocWPF.ViewModels
             get => _endDate;
             set => SetProperty(ref _endDate, value);
         }
-        // END: Add properties for DatePickers
-
 
         public ICommand LoadOrdersCommand { get; }
-        public ICommand FilterOrdersCommand { get; } // Add new command
+        public ICommand FilterOrdersCommand { get; }
+        public ICommand CreateOrderCommand { get; }
 
-        public OrderViewModel()
+        // Add this empty constructor for the XAML Designer
+        public OrderViewModel() { }
+
+        public OrderViewModel(Employees employee)
         {
+            _loggedInEmployee = employee;
             _ordersService = new OrdersService();
             _customersService = new CustomersService();
             _employeesService = new EmployeesService();
             _orderDetailsService = new OrderDetailsService();
             LoadOrdersCommand = new RelayCommand(LoadOrders);
-            FilterOrdersCommand = new RelayCommand(FilterOrders, CanFilter); // Initialize command
+            FilterOrdersCommand = new RelayCommand(FilterOrders, CanFilter);
+            CreateOrderCommand = new RelayCommand(CreateOrder);
 
-            // Set default dates
             EndDate = DateTime.Now;
             StartDate = EndDate.Value.AddMonths(-1);
+            LoadOrders(null);
         }
-
+        private void CreateOrder(object obj)
+        {
+            var createOrderWindow = new CreateOrderView(_loggedInEmployee);
+            if (createOrderWindow.ShowDialog() == true)
+            {
+                LoadOrders(null);
+            }
+        }
         private bool CanFilter(object obj)
         {
-            // Can only filter if both dates are selected
             return StartDate.HasValue && EndDate.HasValue;
         }
 
         private void FilterOrders(object obj)
         {
-            // Get filtered orders from the service
             var orders = _ordersService.GetOrdersByPeriod(StartDate.Value, EndDate.Value);
-            // The rest of the logic is the same as LoadOrders
             var customers = _customersService.GetCustomers();
             var employees = _employeesService.GetEmployees();
 
@@ -111,10 +118,8 @@ namespace DangNguyenPhuocLocWPF.ViewModels
                                        OrderDate = o.OrderDate,
                                        OriginalOrder = o
                                    };
-            // The DAO already sorts by descending date
             Orders = new ObservableCollection<OrderDisplay>(orderDisplayList);
         }
-
 
         private void LoadOrders(object obj)
         {
@@ -133,7 +138,6 @@ namespace DangNguyenPhuocLocWPF.ViewModels
                                        OrderDate = o.OrderDate,
                                        OriginalOrder = o
                                    };
-
             Orders = new ObservableCollection<OrderDisplay>(orderDisplayList);
         }
 

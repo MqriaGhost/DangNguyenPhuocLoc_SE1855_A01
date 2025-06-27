@@ -1,5 +1,4 @@
 ﻿using System.Windows.Controls;
-using DangNguyenPhuocLocWPF.ViewModels;
 
 namespace DangNguyenPhuocLocWPF.Views
 {
@@ -8,8 +7,6 @@ namespace DangNguyenPhuocLocWPF.Views
         public OrderView()
         {
             InitializeComponent();
-            var viewModel = (OrderViewModel)DataContext;
-            viewModel.LoadOrdersCommand.Execute(null);
         }
     }
 }

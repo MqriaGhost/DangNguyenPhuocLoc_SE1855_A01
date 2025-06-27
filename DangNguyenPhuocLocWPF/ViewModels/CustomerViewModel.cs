@@ -1,10 +1,10 @@
 ﻿using BusinessObjects;
 using DangNguyenPhuocLocWPF.Commands;
+using DangNguyenPhuocLocWPF.Views;
 using Services;
 using System.Collections.ObjectModel;
+using System.Windows;
 using System.Windows.Input;
-using DangNguyenPhuocLocWPF.Views; // For the dialog
-using System.Windows; // For MessageBox
 
 namespace DangNguyenPhuocLocWPF.ViewModels
 {
@@ -12,28 +12,26 @@ namespace DangNguyenPhuocLocWPF.ViewModels
     {
         private readonly ICustomersService _customerService;
         private ObservableCollection<Customers> _customers;
-        private Customers _selectedCustomer;
-        private string _searchTerm;
-
         public ObservableCollection<Customers> Customers
         {
             get => _customers;
             set => SetProperty(ref _customers, value);
         }
 
+        private Customers _selectedCustomer;
         public Customers SelectedCustomer
         {
             get => _selectedCustomer;
             set => SetProperty(ref _selectedCustomer, value);
         }
 
+        private string _searchTerm;
         public string SearchTerm
         {
             get => _searchTerm;
             set => SetProperty(ref _searchTerm, value);
         }
 
-        public ICommand LoadCustomersCommand { get; }
         public ICommand SearchCommand { get; }
         public ICommand AddCommand { get; }
         public ICommand UpdateCommand { get; }
@@ -42,16 +40,23 @@ namespace DangNguyenPhuocLocWPF.ViewModels
         public CustomerViewModel()
         {
             _customerService = new CustomersService();
-            LoadCustomersCommand = new RelayCommand(LoadCustomers);
             SearchCommand = new RelayCommand(SearchCustomers);
             AddCommand = new RelayCommand(AddCustomer);
             UpdateCommand = new RelayCommand(UpdateCustomer, CanUpdateOrDelete);
             DeleteCommand = new RelayCommand(DeleteCustomer, CanUpdateOrDelete);
+
+            // Load data immediately upon creation
+            LoadCustomers(null);
+        }
+
+        private void LoadCustomers(object obj)
+        {
+            var customerList = _customerService.GetCustomers();
+            Customers = new ObservableCollection<Customers>(customerList);
         }
 
         private bool CanUpdateOrDelete(object obj)
         {
-            // Can only update or delete if a customer is selected
             return SelectedCustomer != null;
         }
 
@@ -63,9 +68,8 @@ namespace DangNguyenPhuocLocWPF.ViewModels
 
         private void AddCustomer(object obj)
         {
-            var newCustomer = new Customers(); // Create an empty customer
+            var newCustomer = new Customers();
             var dialogVM = new CustomerDialogViewModel(newCustomer);
-
             var dialog = new CustomerDialog
             {
                 DataContext = dialogVM,
@@ -75,14 +79,13 @@ namespace DangNguyenPhuocLocWPF.ViewModels
             if (dialog.ShowDialog() == true)
             {
                 _customerService.AddCustomer(dialogVM.Customer);
-                LoadCustomers(null); // Reload the list to show the new customer
+                LoadCustomers(null);
             }
         }
 
         private void UpdateCustomer(object obj)
         {
             var dialogVM = new CustomerDialogViewModel(SelectedCustomer);
-
             var dialog = new CustomerDialog
             {
                 DataContext = dialogVM,
@@ -92,7 +95,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
             if (dialog.ShowDialog() == true)
             {
                 _customerService.UpdateCustomer(dialogVM.Customer);
-                LoadCustomers(null); // Reload the list
+                LoadCustomers(null);
             }
         }
 
@@ -102,14 +105,8 @@ namespace DangNguyenPhuocLocWPF.ViewModels
                 MessageBoxButton.YesNo, MessageBoxImage.Warning) == MessageBoxResult.Yes)
             {
                 _customerService.DeleteCustomer(SelectedCustomer.CustomerId);
-                LoadCustomers(null); // Reload the list
+                LoadCustomers(null);
             }
-        }
-
-        private void LoadCustomers(object obj)
-        {
-            var customerList = _customerService.GetCustomers();
-            Customers = new ObservableCollection<Customers>(customerList);
         }
     }
 }

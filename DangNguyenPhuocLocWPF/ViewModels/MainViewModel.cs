@@ -1,4 +1,5 @@
-﻿using DangNguyenPhuocLocWPF.Commands;
+﻿using BusinessObjects;
+using DangNguyenPhuocLocWPF.Commands;
 using DangNguyenPhuocLocWPF.Views;
 using System.Windows;
 using System.Windows.Input;
@@ -8,6 +9,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
     public class MainViewModel : ViewModelBase
     {
         private ViewModelBase _currentView;
+        private Employees _loggedInEmployee;
 
         public ViewModelBase CurrentView
         {
@@ -19,8 +21,9 @@ namespace DangNguyenPhuocLocWPF.ViewModels
         public ICommand ShowProductViewCommand { get; }
         public ICommand ShowOrderViewCommand { get; }
         public ICommand LogoutCommand { get; }
-        public MainViewModel()
+        public MainViewModel(Employees employee)
         {
+            _loggedInEmployee = employee;
             ShowCustomerViewCommand = new RelayCommand(ShowCustomerView);
             ShowProductViewCommand = new RelayCommand(ShowProductView);
             ShowOrderViewCommand = new RelayCommand(ShowOrderView);
@@ -51,7 +54,7 @@ namespace DangNguyenPhuocLocWPF.ViewModels
 
         private void ShowOrderView(object obj)
         {
-            CurrentView = new OrderViewModel();
+            CurrentView = new OrderViewModel(_loggedInEmployee);
         }
     }
 }

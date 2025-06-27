@@ -7,9 +7,7 @@
              xmlns:vm="clr-namespace:DangNguyenPhuocLocWPF.ViewModels"
              mc:Ignorable="d" 
              d:DesignHeight="600" d:DesignWidth="800">
-    <UserControl.DataContext>
-        <vm:OrderViewModel/>
-    </UserControl.DataContext>
+   
 
     <DockPanel Margin="10">
         <StackPanel DockPanel.Dock="Top" Margin="0,0,0,10">
@@ -24,6 +22,7 @@
 
                 <Button Content="Filter" Command="{Binding FilterOrdersCommand}" Margin="10,0" Padding="10,2"/>
                 <Button Content="Clear Filter" Command="{Binding LoadOrdersCommand}" Padding="10,2"/>
+                <Button Content="Create New Order" Command="{Binding CreateOrderCommand}" Margin="20,0,0,0" Padding="10,2" FontWeight="Bold"/>
             </StackPanel>
         </StackPanel>
 
