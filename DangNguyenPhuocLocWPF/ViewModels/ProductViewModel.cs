@@ -72,8 +72,15 @@ namespace DangNguyenPhuocLocWPF.ViewModels
 
             if (dialog.ShowDialog() == true)
             {
-                _productService.AddProduct(dialogVM.Product);
-                LoadProducts(null); // Reload list
+                try // Add try block
+                {
+                    _productService.AddProduct(dialogVM.Product);
+                    LoadProducts(null);
+                }
+                catch (Exception ex) // Add catch block
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
 
@@ -89,8 +96,15 @@ namespace DangNguyenPhuocLocWPF.ViewModels
 
             if (dialog.ShowDialog() == true)
             {
-                _productService.UpdateProduct(dialogVM.Product);
-                LoadProducts(null); // Reload list
+                try // Add try block
+                {
+                    _productService.UpdateProduct(dialogVM.Product);
+                    LoadProducts(null);
+                }
+                catch (Exception ex) // Add catch block
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
 

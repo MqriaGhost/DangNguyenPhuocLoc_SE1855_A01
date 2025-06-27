@@ -78,8 +78,15 @@ namespace DangNguyenPhuocLocWPF.ViewModels
 
             if (dialog.ShowDialog() == true)
             {
-                _customerService.AddCustomer(dialogVM.Customer);
-                LoadCustomers(null);
+                try // Add try block
+                {
+                    _customerService.AddCustomer(dialogVM.Customer);
+                    LoadCustomers(null);
+                }
+                catch (Exception ex) // Add catch block
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
 
@@ -94,8 +101,15 @@ namespace DangNguyenPhuocLocWPF.ViewModels
 
             if (dialog.ShowDialog() == true)
             {
-                _customerService.UpdateCustomer(dialogVM.Customer);
-                LoadCustomers(null);
+                try // Add try block
+                {
+                    _customerService.UpdateCustomer(dialogVM.Customer);
+                    LoadCustomers(null);
+                }
+                catch (Exception ex) // Add catch block
+                {
+                    MessageBox.Show(ex.Message, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
             }
         }
 

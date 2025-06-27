@@ -61,14 +61,36 @@ namespace DataAccessLayer
             return products.FirstOrDefault(p => p.ProductId == productId);
         }
         public static void AddProduct(Products product)
-        {            
+        {
+            // ---VALIDATION ---
+            if (product == null)
+                throw new ArgumentNullException(nameof(product), "Product cannot be null.");
+            if (string.IsNullOrWhiteSpace(product.ProductName))
+                throw new ArgumentException("Product Name is required.", nameof(product.ProductName));
+            if (product.UnitPrice < 0)
+                throw new ArgumentException("Unit Price cannot be negative.", nameof(product.UnitPrice));
+            if (product.UnitsInStock < 0)
+                throw new ArgumentException("Units in Stock cannot be negative.", nameof(product.UnitsInStock));
+            // --- END---
+
             int maxId = products.Any() ? products.Max(p => p.ProductId) : 0;
-            // Tạo ID mới
             product.ProductId = maxId + 1;
             products.Add(product);
         }
+
         public static void UpdateProduct(Products product)
         {
+            // --- START VALIDATION ---
+            if (product == null)
+                throw new ArgumentNullException(nameof(product), "Product cannot be null.");
+            if (string.IsNullOrWhiteSpace(product.ProductName))
+                throw new ArgumentException("Product Name is required.", nameof(product.ProductName));
+            if (product.UnitPrice < 0)
+                throw new ArgumentException("Unit Price cannot be negative.", nameof(product.UnitPrice));
+            if (product.UnitsInStock < 0)
+                throw new ArgumentException("Units in Stock cannot be negative.", nameof(product.UnitsInStock));
+            // --- END VALIDATION ---
+
             var existing = products.FirstOrDefault(p => p.ProductId == product.ProductId);
             if (existing != null)
             {

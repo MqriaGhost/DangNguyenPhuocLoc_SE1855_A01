@@ -43,6 +43,13 @@ namespace DataAccessLayer
         }
         public static void AddOrder(Orders order)
         {
+            // --- START VALIDATION ---
+            if (order == null)
+                throw new ArgumentNullException(nameof(order), "Order cannot be null.");
+            if (order.CustomerId <= 0)
+                throw new ArgumentException("A customer must be selected.", nameof(order.CustomerId));
+            // --- END---
+
             var maxId = orders.Any() ? orders.Max(o => o.OrderId) : 0;
             order.OrderId = maxId + 1;
             orders.Add(order);
